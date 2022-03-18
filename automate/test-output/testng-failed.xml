@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="testClass.TC_1">
+        <methods>
+          <include name="verificationOfCartMsg"/>
+          <include name="navigateToCart"/>
+          <include name="closeBrowser"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- testClass.TC_1 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

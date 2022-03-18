@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="extendReportListner.ExtentReport1"/>
+  </listeners>
+  <test name="Test1(failed)">
+    <classes>
+      <class name="testClass.TC_1">
+        <methods>
+          <include name="verificationOfCartMsg"/>
+          <include name="navigateToCart"/>
+          <include name="closeBrowser"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- testClass.TC_1 -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
